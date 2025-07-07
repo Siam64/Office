@@ -1,0 +1,281 @@
+﻿@model List<HW.Application.Model.DepartmentDto>
+
+<h2>Department Form</h2>
+
+<form id="DepartmentForm">
+
+    <input type="hidden" id="DepId" name="DepId" />
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label for="DepName">Department Name</label>
+            <input type="text" id="DepName" name="DepName"  class="form-control" />
+        </div>
+        <div class="col-md-6">
+            <label for="Remarks">Remarks</label>
+            <input type="text" id="Remarks" name="Remarks" class="form-control" />
+        </div>
+    </div>
+
+    <button type="submit" id="submitBtn" class="btn btn-primary">Submit</button>
+    <button type="button" class="btn btn-success mr-2" id="submitUpdateButton" hidden>Confirm Update</button>
+    <button type="reset" class="btn btn-secondary" id="clearForm">Clear</button>
+</form>
+
+ <hr />
+
+<h4>Department List</h4>
+<table class="table table-bordered" id="DepartmentTable">
+    <thead>
+        <tr>
+            <th>Sl</th>
+            <th>Department Name</th>
+            <th>Remarks</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int sl = 1;
+        }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@sl</td>
+                <td>@item.DepName</td>
+                <td>@item.Remarks</td>
+                <td>
+                    <button type="button" id="UpdateBtn" data-id="@item.DepId" class="btn btn-sm btn-warning updateBtn">Update</button>
+                    
+                    <button type="button" id="DeleteBtn" data-id="@item.DepId" class="btn btn-sm btn-danger deleteBtn" @* onclick="return confirm('Are you sure you want to delete this item?');" *@>Delete</button>
+                </td>
+            </tr>
+            sl++;
+        }
+    </tbody>
+</table> 
+
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Toastr CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+
+<!-- Toastr JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<!-- SweetAlert2 CDN -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+<script>
+
+    ﻿$('#clearForm').on('click', function () {
+        $('#DepartmentForm')[0].reset(); 
+        $('#DepId').val(''); 
+        $('#submitUpdateButton').attr('hidden', true); 
+        $('#submitBtn').removeAttr('hidden'); 
+    });
+
+       $(document).on('click', '.deleteBtn', function () {
+        var id = $(this).data('id');
+
+        Swal.fire({
+            title: 'Are you sure?',
+            text: 'This item will be permanently deleted!',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!',
+            cancelButtonText: 'Cancel'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $.ajax({
+                    url: '/Department/Delete',
+                    type: 'POST',
+                    data: { id: id },
+                    success: function (response) {
+                        if (response.success) {
+                            toastr.success("Department deleted successfully");
+
+                            
+                            $('button.deleteBtn[data-id="' + id + '"]').closest('tr').remove();
+
+                            
+                            $('#DepartmentTable tbody tr').each(function (index) {
+                                $(this).find('td:first').text(index + 1);
+                            });
+
+                        } else {
+                            toastr.error(response.message || "Failed to delete the department");
+                        }
+                    },
+                    error: function () {
+                        toastr.error("An error occurred while deleting the department");
+                    }
+                });
+            }
+        });
+    });
+
+    $(document).on('click', '.updateBtn', function () {
+        var id = $(this).data('id');
+        var updateId = { id: id };
+
+        $('#submitUpdateButton').removeAttr('hidden');
+        $('#submitBtn').attr('hidden', true);
+
+        $.ajax({
+            url: '/Department/GetDataForUpdate', 
+            type: 'POST',
+            data: updateId,
+            success: function (response) {
+                if (response.success) {
+                    
+                    $('#DepId').val(response.data.depId);
+                    $('#DepName').val(response.data.depName);
+                    $('#Remarks').val(response.data.remarks);
+                } else {
+                    toastr.error(response.message || "Failed to fetch department data for update");
+                }
+            },
+            error: function () {
+                toastr.error("An error occurred while fetching department data for update");
+            }
+        });
+    });
+
+
+
+
+    $(document).ready(function () {
+            $('#submitBtn').click(function (e) {
+        e.preventDefault();
+
+        Swal.fire({
+            title: 'Saving...',
+            allowOutsideClick: false,
+            didOpen: () => {
+                Swal.showLoading();
+            }
+        });
+
+     
+        let formData = {
+            DepId: $('#DepId').val(),
+            DepName: $('#DepName').val(),
+            Remarks: $('#Remarks').val()
+        };
+
+        $.ajax({
+            url: '/Department/AddDepartment', 
+            type: 'POST',
+            data: formData,
+            success: function (response) {
+                Swal.close();
+
+                if (response.success) {
+                    toastr.success("Department Saved Successfully");
+                    console.log(response);
+                    debugger;
+
+                    var nextSerial = $('#DepartmentTable tbody tr').length + 1;
+
+                    var newRow = `
+                        <tr>
+                            <td>${nextSerial}</td>
+                            <td>${formData.DepName}</td>
+                            <td>${formData.Remarks}</td>
+                            <td>
+                                <button type="button" class="btn btn-sm btn-warning updateBtn" data-id="${response.data.depId}">Update</button>
+                                <button type="button" class="btn btn-sm btn-danger deleteBtn" data-id="${response.data.depId}">Delete</button>
+                            </td>
+                        </tr>
+                    `;
+
+                    $('#DepartmentTable tbody').append(newRow);
+
+                    $('#DepartmentForm')[0].reset();
+
+                } else {
+                    toastr.error(response.message || "Something went wrong");
+                }
+            },
+            error: function () {
+                Swal.close();
+                toastr.error("An error occurred while saving.");
+            }
+        });
+      });
+
+
+          $("#submitUpdateButton").click(function () {
+        var depId = $('#DepId').val();
+        if (!depId) {
+            toastr.error("Can't update without selecting a department");
+            return;
+        }
+
+        Swal.fire({
+            title: 'Updating...',
+            allowOutsideClick: false,
+            didOpen: () => {
+                Swal.showLoading();
+            }
+        });
+
+        var depData = {
+            DepId: depId,
+            DepName: $('#DepName').val(),
+            Remarks: $('#Remarks').val()
+        };
+
+        $.ajax({
+            url: '/Department/Update',
+            type: 'POST',
+            data: depData,
+            success: function (response) {
+                Swal.close();
+                if (response.success && response.data) {
+                    toastr.success("Department has been updated!");
+
+                    var row = $('#DepartmentTable tbody').find('button[data-id="' + response.data.depId + '"]').closest('tr');
+                    if (row.length) {
+                        var currentSerial = row.find('td:first').text();
+
+                        var updatedRow = `
+                            <td >${currentSerial}</td>
+                            <td>${response.data.depName}</td>
+                            <td>${response.data.remarks}</td>
+                            <td>
+                               <button type="button" class="btn btn-sm btn-warning updateBtn" data-id="${response.data.depId}">Update</button>
+                                <button type="button" class="btn btn-sm btn-danger deleteBtn" data-id="${response.data.depId}">Delete</button>
+                            </td>
+                        `;
+                        row.html(updatedRow);
+                    } else {
+                        toastr.error("Could not find the updated department in the table.");
+                    }
+
+                    $('#DepartmentForm')[0].reset();
+                    $('#DepId').val('');
+                    $('#submitUpdateButton').attr('hidden', true);
+                    $('#submitBtn').removeAttr('hidden');
+                } else {
+                    toastr.error(response.message || "Failed to update department");
+                }
+            },
+            error: function () {
+                Swal.close();
+                toastr.error("An error occurred while updating the department");
+            }
+        });
+    });
+
+    });
+</script>
+
+
+
