@@ -1,0 +1,17 @@
+G:\Project\HW.Infrustructure\obj\Debug\net8.0\HW.Infrustructure.csproj.AssemblyReference.cache
+G:\Project\HW.Infrustructure\obj\Debug\net8.0\HW.Infrustructure.GeneratedMSBuildEditorConfig.editorconfig
+G:\Project\HW.Infrustructure\obj\Debug\net8.0\HW.Infrustructure.AssemblyInfoInputs.cache
+G:\Project\HW.Infrustructure\obj\Debug\net8.0\HW.Infrustructure.AssemblyInfo.cs
+G:\Project\HW.Infrustructure\obj\Debug\net8.0\HW.Infrustructure.csproj.CoreCompileInputs.cache
+G:\Project\HW.Infrustructure\bin\Debug\net8.0\HW.Infrustructure.deps.json
+G:\Project\HW.Infrustructure\bin\Debug\net8.0\HW.Infrustructure.dll
+G:\Project\HW.Infrustructure\bin\Debug\net8.0\HW.Infrustructure.pdb
+G:\Project\HW.Infrustructure\bin\Debug\net8.0\HW.Application.dll
+G:\Project\HW.Infrustructure\bin\Debug\net8.0\HW.Domain.dll
+G:\Project\HW.Infrustructure\bin\Debug\net8.0\HW.Application.pdb
+G:\Project\HW.Infrustructure\bin\Debug\net8.0\HW.Domain.pdb
+G:\Project\HW.Infrustructure\obj\Debug\net8.0\HW.Infru.085F64BD.Up2Date
+G:\Project\HW.Infrustructure\obj\Debug\net8.0\HW.Infrustructure.dll
+G:\Project\HW.Infrustructure\obj\Debug\net8.0\refint\HW.Infrustructure.dll
+G:\Project\HW.Infrustructure\obj\Debug\net8.0\HW.Infrustructure.pdb
+G:\Project\HW.Infrustructure\obj\Debug\net8.0\ref\HW.Infrustructure.dll

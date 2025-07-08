@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Project\\HW1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10C50F7F-2B8A-4970-A10B-1AEA63D2809C}|HW1.Project.csproj|g:\\project\\hw1\\views\\department\\depindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10C50F7F-2B8A-4970-A10B-1AEA63D2809C}|HW1.Project.csproj|solutionrelative:views\\department\\depindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C50F7F-2B8A-4970-A10B-1AEA63D2809C}|HW1.Project.csproj|g:\\project\\hw1\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C50F7F-2B8A-4970-A10B-1AEA63D2809C}|HW1.Project.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C50F7F-2B8A-4970-A10B-1AEA63D2809C}|HW1.Project.csproj|g:\\project\\hw1\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C50F7F-2B8A-4970-A10B-1AEA63D2809C}|HW1.Project.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392DB01-B732-44F4-B3D6-585B36ED6FFB}|..\\HW.Infrustructure\\HW.Infrustructure.csproj|g:\\project\\hw.infrustructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392DB01-B732-44F4-B3D6-585B36ED6FFB}|..\\HW.Infrustructure\\HW.Infrustructure.csproj|g:\\project\\hw.infrustructure\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26BE557-8D4D-4B2E-B601-7F537DEC72E8}|..\\HW.Application\\HW.Application.csproj|g:\\project\\hw.application\\interface\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26BE557-8D4D-4B2E-B601-7F537DEC72E8}|..\\HW.Application\\HW.Application.csproj|g:\\project\\hw.application\\model\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16686661-C696-47CA-BD5D-8BDE760496CE}|..\\HW.Domain\\HW.Domain.csproj|g:\\project\\hw.domain\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16686661-C696-47CA-BD5D-8BDE760496CE}|..\\HW.Domain\\HW.Domain.csproj|g:\\project\\hw.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C50F7F-2B8A-4970-A10B-1AEA63D2809C}|HW1.Project.csproj|g:\\project\\hw1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{10C50F7F-2B8A-4970-A10B-1AEA63D2809C}|HW1.Project.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C50F7F-2B8A-4970-A10B-1AEA63D2809C}|HW1.Project.csproj|g:\\project\\hw1\\views\\employees\\empindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10C50F7F-2B8A-4970-A10B-1AEA63D2809C}|HW1.Project.csproj|solutionrelative:views\\employees\\empindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26BE557-8D4D-4B2E-B601-7F537DEC72E8}|..\\HW.Application\\HW.Application.csproj|g:\\project\\hw.application\\interface\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C50F7F-2B8A-4970-A10B-1AEA63D2809C}|HW1.Project.csproj|g:\\project\\hw1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10C50F7F-2B8A-4970-A10B-1AEA63D2809C}|HW1.Project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C50F7F-2B8A-4970-A10B-1AEA63D2809C}|HW1.Project.csproj|g:\\project\\hw1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C50F7F-2B8A-4970-A10B-1AEA63D2809C}|HW1.Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392DB01-B732-44F4-B3D6-585B36ED6FFB}|..\\HW.Infrustructure\\HW.Infrustructure.csproj|g:\\project\\hw.infrustructure\\hw.infrustructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392DB01-B732-44F4-B3D6-585B36ED6FFB}|..\\HW.Infrustructure\\HW.Infrustructure.csproj|g:\\project\\hw.infrustructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392DB01-B732-44F4-B3D6-585B36ED6FFB}|..\\HW.Infrustructure\\HW.Infrustructure.csproj|g:\\project\\hw.infrustructure\\migrations\\20250703042033_create-db.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392DB01-B732-44F4-B3D6-585B36ED6FFB}|..\\HW.Infrustructure\\HW.Infrustructure.csproj|g:\\project\\hw.infrustructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16686661-C696-47CA-BD5D-8BDE760496CE}|..\\HW.Domain\\HW.Domain.csproj|g:\\project\\hw.domain\\hw.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392DB01-B732-44F4-B3D6-585B36ED6FFB}|..\\HW.Infrustructure\\HW.Infrustructure.csproj|g:\\project\\hw.infrustructure\\migrations\\20250703051140_createtable2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392DB01-B732-44F4-B3D6-585B36ED6FFB}|..\\HW.Infrustructure\\HW.Infrustructure.csproj|g:\\project\\hw.infrustructure\\migrations\\20250703045028_createtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392DB01-B732-44F4-B3D6-585B36ED6FFB}|..\\HW.Infrustructure\\HW.Infrustructure.csproj|g:\\project\\hw.infrustructure\\migrations\\20250703042033_create-db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 295,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "G:\\Project\\HW1\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "G:\\Project\\HW1\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAGAAAACAoZmZmZkkwF4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T05:00:03.095Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmpIndex.cshtml",
+              "DocumentMoniker": "G:\\Project\\HW1\\Views\\Employees\\EmpIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\EmpIndex.cshtml",
+              "ToolTip": "G:\\Project\\HW1\\Views\\Employees\\EmpIndex.cshtml",
+              "RelativeToolTip": "Views\\Employees\\EmpIndex.cshtml",
+              "ViewState": "AgIAAFsAAAAAVjMzMzMrwEABAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T05:04:00.82Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepIndex.cshtml",
+              "DocumentMoniker": "G:\\Project\\HW1\\Views\\Department\\DepIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\DepIndex.cshtml",
+              "ToolTip": "G:\\Project\\HW1\\Views\\Department\\DepIndex.cshtml",
+              "RelativeToolTip": "Views\\Department\\DepIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0BAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T14:42:48.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "G:\\Project\\HW.Application\\Interface\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "..\\HW.Application\\Interface\\IDepartmentRepository.cs",
+              "ToolTip": "G:\\Project\\HW.Application\\Interface\\IDepartmentRepository.cs",
+              "RelativeToolTip": "..\\HW.Application\\Interface\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T10:13:08.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "G:\\Project\\HW1\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "G:\\Project\\HW1\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T09:44:05.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "G:\\Project\\HW.Infrustructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\HW.Infrustructure\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "G:\\Project\\HW.Infrustructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\HW.Infrustructure\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T09:36:58.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "G:\\Project\\HW.Application\\Interface\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\HW.Application\\Interface\\IEmployeeRepository.cs",
+              "ToolTip": "G:\\Project\\HW.Application\\Interface\\IEmployeeRepository.cs",
+              "RelativeToolTip": "..\\HW.Application\\Interface\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAUAAAAALDMzMzP7vw8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T09:36:33.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "G:\\Project\\HW.Infrustructure\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "..\\HW.Infrustructure\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "G:\\Project\\HW.Infrustructure\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "..\\HW.Infrustructure\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAAEwAAAAA/v////8LwEkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T09:34:31.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Project\\HW1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\Project\\HW1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:18:57.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "G:\\Project\\HW1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "G:\\Project\\HW1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABYAAADALzMzMzMbwBcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T05:24:26.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250703051140_createTable2.cs",
+              "DocumentMoniker": "G:\\Project\\HW.Infrustructure\\Migrations\\20250703051140_createTable2.cs",
+              "RelativeDocumentMoniker": "..\\HW.Infrustructure\\Migrations\\20250703051140_createTable2.cs",
+              "ToolTip": "G:\\Project\\HW.Infrustructure\\Migrations\\20250703051140_createTable2.cs",
+              "RelativeToolTip": "..\\HW.Infrustructure\\Migrations\\20250703051140_createTable2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T05:11:40.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HW.Infrustructure.csproj",
+              "DocumentMoniker": "G:\\Project\\HW.Infrustructure\\HW.Infrustructure.csproj",
+              "RelativeDocumentMoniker": "..\\HW.Infrustructure\\HW.Infrustructure.csproj",
+              "ToolTip": "G:\\Project\\HW.Infrustructure\\HW.Infrustructure.csproj",
+              "RelativeToolTip": "..\\HW.Infrustructure\\HW.Infrustructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-03T04:48:04.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "G:\\Project\\HW.Application\\Model\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "..\\HW.Application\\Model\\EmployeeDto.cs",
+              "ToolTip": "G:\\Project\\HW.Application\\Model\\EmployeeDto.cs",
+              "RelativeToolTip": "..\\HW.Application\\Model\\EmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:51:58.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Department.cs",
+              "DocumentMoniker": "G:\\Project\\HW.Domain\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "..\\HW.Domain\\Entities\\Department.cs",
+              "ToolTip": "G:\\Project\\HW.Domain\\Entities\\Department.cs",
+              "RelativeToolTip": "..\\HW.Domain\\Entities\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:37:18.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250703045028_createTable.cs",
+              "DocumentMoniker": "G:\\Project\\HW.Infrustructure\\Migrations\\20250703045028_createTable.cs",
+              "RelativeDocumentMoniker": "..\\HW.Infrustructure\\Migrations\\20250703045028_createTable.cs",
+              "ToolTip": "G:\\Project\\HW.Infrustructure\\Migrations\\20250703045028_createTable.cs",
+              "RelativeToolTip": "..\\HW.Infrustructure\\Migrations\\20250703045028_createTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:50:29.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "G:\\Project\\HW.Domain\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\HW.Domain\\Entities\\Employee.cs",
+              "ToolTip": "G:\\Project\\HW.Domain\\Entities\\Employee.cs",
+              "RelativeToolTip": "..\\HW.Domain\\Entities\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:34:56.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250703042033_create-db.cs",
+              "DocumentMoniker": "G:\\Project\\HW.Infrustructure\\Migrations\\20250703042033_create-db.cs",
+              "RelativeDocumentMoniker": "..\\HW.Infrustructure\\Migrations\\20250703042033_create-db.cs",
+              "ToolTip": "G:\\Project\\HW.Infrustructure\\Migrations\\20250703042033_create-db.cs",
+              "RelativeToolTip": "..\\HW.Infrustructure\\Migrations\\20250703042033_create-db.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:20:33.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\Project\\HW1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "G:\\Project\\HW1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-03T04:17:38.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250703042033_create-db.Designer.cs",
+              "DocumentMoniker": "G:\\Project\\HW.Infrustructure\\Migrations\\20250703042033_create-db.Designer.cs",
+              "RelativeDocumentMoniker": "..\\HW.Infrustructure\\Migrations\\20250703042033_create-db.Designer.cs",
+              "ToolTip": "G:\\Project\\HW.Infrustructure\\Migrations\\20250703042033_create-db.Designer.cs",
+              "RelativeToolTip": "..\\HW.Infrustructure\\Migrations\\20250703042033_create-db.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:28:25.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "G:\\Project\\HW.Infrustructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\HW.Infrustructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "G:\\Project\\HW.Infrustructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\HW.Infrustructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:01:19.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "G:\\Project\\HW.Infrustructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\HW.Infrustructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "G:\\Project\\HW.Infrustructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\HW.Infrustructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAhwGUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:30:23.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HW.Domain.csproj",
+              "DocumentMoniker": "G:\\Project\\HW.Domain\\HW.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\HW.Domain\\HW.Domain.csproj",
+              "ToolTip": "G:\\Project\\HW.Domain\\HW.Domain.csproj",
+              "RelativeToolTip": "..\\HW.Domain\\HW.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-03T04:21:01.93Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
